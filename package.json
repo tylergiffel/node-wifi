@@ -1,5 +1,5 @@
 {
-  "name": "node-wifi-winopen",
+  "name": "@tylergiffel/node-wifi-winopen",
   "version": "2.0.12",
   "description": "NodeJS tool to manage wifi",
   "bin": {
@@ -31,6 +31,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tylergiffel/node-wifi"
+  },
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/" 
   },
   "dependencies": {
     "command-line-args": "^3.0.1",
