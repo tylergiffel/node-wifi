@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tylergiffel/node-wifi.git"
+    "url": "git://github.com/tylergiffel/node-wifi-winopen.git"
   },
   "keywords": [
     "wifi",
@@ -30,7 +30,7 @@
   "author": "Thibault Friedrich",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tylergiffel/node-wifi"
+    "url": "https://github.com/tylergiffel/node-wifi-winopen"
   },
   "publishConfig": { 
     "registry": "https://npm.pkg.github.com/" 
