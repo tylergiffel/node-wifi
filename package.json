@@ -1,5 +1,5 @@
 {
-  "name": "@tylergiffel/node-wifi-winopen",
+  "name": "@tgiffel/node-wifi-winopen",
   "version": "2.0.12",
   "description": "NodeJS tool to manage wifi",
   "bin": {
