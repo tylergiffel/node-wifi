@@ -118,10 +118,10 @@ function win32WirelessProfileBuilder(selectedAp, key) {
         '</keyMaterial> </sharedKey> </security> </MSM>';
     } else {
       profile_content +=
-        '<connectionType>ESS</connectionType> <connectionMode>manual</connectionMode> <MSM> <security> <authEncryption> <authentication>open</authentication> <encryption>none</encryption> <useOneX>false</useOneX> </authEncryption> </security> </MSM>';
+        '<connectionType>ESS</connectionType> <connectionMode>auto</connectionMode> <MSM> <security> <authEncryption> <authentication>open</authentication> <encryption>none</encryption> <useOneX>false</useOneX> </authEncryption> </security> </MSM>';
     }
   }
-
+  profile_content += `<MacRandomization xmlns="http://www.microsoft.com/networking/WLAN/profile/v3"><enableRandomization>false</enableRandomization><randomizationSeed>3344294543</randomizationSeed></MacRandomization>`
   profile_content += '</WLANProfile>';
   return profile_content;
 }
