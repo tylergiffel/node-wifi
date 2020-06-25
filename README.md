@@ -31,10 +31,10 @@ We wish to be clear in saying that this module is inspired from [node-wifi-contr
 
 ```bash
 # Use as a module
-npm install @tgiffel-node-wifi-winopen
+npm install @tgiffel/node-wifi-winopen
 
 # Use as a CLI
-npm install @tgiffel-node-wifi-winopen -g
+npm install @tgiffel/node-wifi-winopen -g
 ```
 
 ## Getting started
