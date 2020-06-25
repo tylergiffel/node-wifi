@@ -31,16 +31,16 @@ We wish to be clear in saying that this module is inspired from [node-wifi-contr
 
 ```bash
 # Use as a module
-npm install node-wifi
+npm install @tgiffel-node-wifi-winopen
 
 # Use as a CLI
-npm install node-wifi -g
+npm install @tgiffel-node-wifi-winopen -g
 ```
 
 ## Getting started
 
 ```javascript
-var wifi = require("node-wifi");
+var wifi = require("@tgiffel-node-wifi-winopen");
 
 // Initialize wifi module
 // Absolutely necessary even to set interface to null
